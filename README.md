@@ -9,6 +9,6 @@ Explore the data directory:
 * **sortkey-multiple.json** -- In case you want to use those two keys. This is already included in *sortkey.json*.
 * **sortkey-rev.json** -- Reverse keys back to characters. It is convenience for some job.
 
-Note: CJK Compatibility Ideographs and CJK Compatibility Ideographs Supplement are also included.
+Note: CJK Compatibility Ideographs and CJK Compatibility Ideographs Supplement are also included. Beware that they might change to normal characters.
 
 More to come in the future.
