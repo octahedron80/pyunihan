@@ -8,6 +8,7 @@ Explore the data directory:
 * **sortkey.json** -- Simple keys for indexing or sorting. Some may have two keys. (Wiktionaries use it.)
 * **sortkey-multiple.json** -- In case you want to use those two keys. This is already included in *sortkey.json*.
 * **sortkey-rev.json** -- Reverse keys back to characters. It is convenience for some job.
+* **jyutping.json** -- List of Cantonese jyutpings found in Unihan, toned and untoned ones.
 
 Note: CJK Compatibility Ideographs and CJK Compatibility Ideographs Supplement are also included. Beware that they might change to normal characters.
 
