@@ -29,10 +29,14 @@ class HanComparator:
             key += 6 << 20
         elif blockID == getattr(icu.UBlockCode, "CJK_UNIFIED_IDEOGRAPHS_EXTENSION_G"):
             key += 7 << 20
+        #elif blockID == getattr(icu.UBlockCode, "CJK_UNIFIED_IDEOGRAPHS_EXTENSION_H"):
+        #    key += 8 << 20
         elif blockID == getattr(icu.UBlockCode, "CJK_COMPATIBILITY_IDEOGRAPHS"):
             key += 254 << 20
         elif blockID == getattr(icu.UBlockCode, "CJK_COMPATIBILITY_IDEOGRAPHS_SUPPLEMENT"):
             key += 255 << 20
+        elif blockID == getattr(icu.UBlockCode, "NO_BLOCK"): # when pyicu not yet update
+            key += 253 << 20
         # for main block or else, nothing to add
 
         rscode = self.dbObj[hanChar]["kRSUnicode"][0] # only first value because no way to choose
