@@ -1,7 +1,7 @@
 # pyunihan
 ###### The name does not matter.
 
-Processed data from Unihan (Unicode 14.0). Ready to use anywhere.
+Processed data from Unihan (Unicode 15.0.0). Ready to use anywhere.
 
 Explore the data directory:
 * **Unihan_*.json** -- Converted data from all txt's which Unihan provided. *U+* codes are changed to actual characters.
